@@ -43,12 +43,12 @@ router.post('/', [check('username').notEmpty().withMessage("username is required
             port: 465,
             secure: true,
             auth:{
-                user:"m_ferrouk@estin.dz",
-                pass:"m@ssi23052002MoI"
+                user:"massi@gmail.com",
+                pass:"pass"
             }
         })
         var mailOptions = {
-            from: 'm_ferrouk@estin.dz',
+            from: 'massi@gmail.dz',
             to: email,
             subject: 'Email verification',
             html: output
